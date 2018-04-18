@@ -3,7 +3,7 @@ require 'paralleldots'
 require 'net/http'
 require 'json'
 
-
+puts "REMEMBER TO PUT THE API KEYS BACK IN"
 # Setting your API key
 set_api_key("")
 google_api_key = ""
