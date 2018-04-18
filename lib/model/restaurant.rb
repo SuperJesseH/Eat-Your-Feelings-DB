@@ -3,6 +3,7 @@ class Restaurant < ActiveRecord::Base
   has_many :users, through: :reviews
 
   @@emos = ["angry", "sarcasm", "happy", "excited", "sad", "bored", "fear"]
+  @@break = "/////////////////////BREAK/////////////////////"
 
   #List all resturants/users by name
   def  self.all_names
@@ -17,11 +18,11 @@ class Restaurant < ActiveRecord::Base
 
   def emotions
     emotions_dirty.each_with_index do |emotion, index|
-      value = emotion.to_f.round(2)
-      value = value*100
+      value = emotion.to_f
+      value = (value*100).round(2)
       puts "#{@@emos[index].capitalize}: #{value}%"
     end
-    ""
+    @@break
   end
 
 end
