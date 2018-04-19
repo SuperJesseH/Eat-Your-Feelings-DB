@@ -5,7 +5,7 @@ require 'json'
 
 puts "REMEMBER TO PUT THE API KEYS BACK IN"
 # Setting your API key
-set_api_key("QOfA637jc3p7VXQfdCJqfCDcUKRVrhoVnLsdC8dzmhY")
+set_api_key("dv7W8sF97N8gzUZnhxC7VgvfRyXCXjKCnDL0hO3vUMI")
 google_api_key = "AIzaSyDSLqNSD2YXSCzhCkJCyMZR9Xr4hkfUIjg"
 
 places = ["ChIJQ_4N7hNawokRxOz5_NjiNoA", "ChIJFdlGXhFawokR7lPqXwaGirc", "ChIJEdxJIBRawokRK4AqcCIkKbA", "ChIJ8wQjtRlawokRPt5Bwv6cyZA", "ChIJBXCQjxBawokRrxEiP2Idp8U", "ChIJ15ymfBRawokRp-idXvp1rdY", "ChIJ7-ii9RNawokRB1W5aaO2O5k", "ChIJAWqtshZawokRpoLRfZ9B0y4"]
