@@ -1,6 +1,9 @@
 .DS_Store
 .idea
 
+paralleldots_key.conf
+keys.rb
+
 log
 node_modules
 out
