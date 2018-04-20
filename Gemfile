@@ -7,4 +7,5 @@ gem "pry"
 gem "require_all"
 gem "paralleldots"
 gem "json"
+gem "colorize"
 # gem 'net/http'

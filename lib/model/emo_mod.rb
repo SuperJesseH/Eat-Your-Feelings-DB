@@ -23,7 +23,7 @@ module EmoMod
         a.each do |inst|
           puts "#{inst[2]} - #{inst[0].capitalize}: #{make_pretty_number(inst[1])}%"
         end
-        @@break
+        puts
       end
 
       def make_pretty_number(nasty_num)

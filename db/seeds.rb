@@ -8,7 +8,7 @@ puts "REMEMBER TO PUT THE API KEYS BACK IN"
 set_api_key("dv7W8sF97N8gzUZnhxC7VgvfRyXCXjKCnDL0hO3vUMI")
 google_api_key = "AIzaSyDSLqNSD2YXSCzhCkJCyMZR9Xr4hkfUIjg"
 
-places = ["ChIJQ_4N7hNawokRxOz5_NjiNoA", "ChIJFdlGXhFawokR7lPqXwaGirc", "ChIJEdxJIBRawokRK4AqcCIkKbA", "ChIJ8wQjtRlawokRPt5Bwv6cyZA", "ChIJBXCQjxBawokRrxEiP2Idp8U", "ChIJ15ymfBRawokRp-idXvp1rdY", "ChIJ7-ii9RNawokRB1W5aaO2O5k", "ChIJAWqtshZawokRpoLRfZ9B0y4"]
+places = ["ChIJQ_4N7hNawokRxOz5_NjiNoA", "ChIJFdlGXhFawokR7lPqXwaGirc", "ChIJEdxJIBRawokRK4AqcCIkKbA", "ChIJ8wQjtRlawokRPt5Bwv6cyZA", "ChIJBXCQjxBawokRrxEiP2Idp8U", "ChIJ15ymfBRawokRp-idXvp1rdY", "ChIJ7-ii9RNawokRB1W5aaO2O5k", "ChIJAWqtshZawokRpoLRfZ9B0y4", "ChIJST0cgRZawokRNvJv5mhG57E", "ChIJy5TRrRZawokR5mAVMKYBiFc", "ChIJUyCSBRRawokRxj-pVUcQK9U", "ChIJR39JUxZawokRHxxMOqZSBls", "ChIJ_QfhyiJawokR-LLcFIR-PIg", "ChIJr9lkOhFawokRaEaQXRNDVdc", "ChIJrxO2pRZawokRHcAcQimJyAI", "ChIJI5k7jBNawokRlAWRPuRMg1Q", "ChIJRWYXMBZawokRWzM00glz0yE", "ChIJD5fYOhRawokRDTetq4LAqBE", "ChIJe561bxZawokR7iWnSvqBJRE", "ChIJrc9T9fpYwokRAZcRVvva28s"]
 
 
 def find_place_json(google_api_key, place_id)
@@ -34,7 +34,7 @@ def build_places_hash(places, google_api_key, num_of_reviews_per = 4)
   end
 end
 
-review_results = build_places_hash(places, google_api_key, 2)
+review_results = build_places_hash(places, google_api_key, 4)
 puts "I got the results!"
 
 review_results.each do |val|
